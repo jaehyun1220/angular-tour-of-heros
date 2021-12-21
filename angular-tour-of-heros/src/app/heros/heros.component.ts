@@ -9,16 +9,20 @@ import { HEROES } from '../mock-heros';
 })
 export class HerosComponent implements OnInit {
   constructor() { }
-  hero: Hero = {
-    id: 1,
-    name: 'Windstorm'
-  }
+  hero = [];
   heroes = HEROES;
   selectedHero?: Hero;
+  // on = false;
+  // listItems = HEROES;
   onSelect(hero: Hero): void {
     this.selectedHero = hero;
   }
   ngOnInit(): void {
   }
-
+  // toggle(list: any): void  {
+  //   this.listItems.forEach( (asd: Hero) => {
+  //     asd.on = false;
+  //   });
+  //   list.on = !list.on;
+  // }
 }

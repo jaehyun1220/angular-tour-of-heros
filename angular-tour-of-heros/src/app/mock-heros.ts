@@ -12,3 +12,12 @@ export const HEROES: Hero[] = [
     { id: 19, name: 'Magma' },
     { id: 20, name: 'Tornado' }
 ];
+
+// import { Hero } from './hero';
+
+// export const HEROES: Hero[] = [
+//     { id: 11, name: 'Dr Nice', on: false },
+//     { id: 12, name: 'Narco', on: false },
+//     { id: 13, name: 'Bombasto', on: false },
+//     { id: 14, name: 'Celeritas', on: false }
+// ];
